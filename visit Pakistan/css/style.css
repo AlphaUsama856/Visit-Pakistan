@@ -1,0 +1,264 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0.1)) ,url(../mosque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+}
+nav .menu a:first-child{
+     color: #00b894;   
+}
+main{
+     width: 100%;
+     height: 85vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     color: white;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px; 
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline:none;
+    text-transform: uppercase;
+    font-size:13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+section .btnone{
+    background: #fff;
+    color: #000;
+}
+.btnone:hover{
+    background: #00b894;
+    color: #fff
+}
+section .btntwo{
+    background: #00b894;
+    color: #fff;
+}
+.btntwo:hover{
+    background: #fff;
+    color: #000;
+}
+.change-content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;    
+}
+@keyframes changetext{
+    0%{content: " Lahore";}
+    25%{content: " Manora";}
+    35%{content: " Swat";}
+    60%{content: "Muree";}
+    80%{content: " Multan";}
+    100%{content: "Quetta";}
+}
+section h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+.box{
+    display: inline-block;
+    margin: 150px 100px;
+    padding: 75px;
+    width: 40%;
+    border: 2px solid #00b894;
+    border-radius: 28px;
+}
+.box h1{
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #00b894;
+}
+.box h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: 200;
+    font-style: italic;
+}
+.box p{
+    padding-bottom:10px ;
+}
+.btn{
+  border: 2px solid #58eccf;
+  background-color: white;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.image{
+    margin:-173px 50px ;
+    padding: 20px;
+    float:right;
+    transition: 1s;
+    cursor: pointer;
+    border: 2px solid #00b894;
+}
+.image:hover{
+    transform: scale(1.3);
+    z-index: 1;
+}
+.image2{
+    padding: 20px;
+    margin-top: 180px;
+    margin-right: 150px;
+    float: right;
+    transition: 1s;
+    cursor: pointer;
+    border: 2px solid #00b894;
+}
+.image2:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+.box1{
+    display: inline-block;
+    margin: 100px;
+    padding: 75px;
+    width: 40%;
+}
+.box1 h1{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px black;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #00b894;
+}
+.box1 h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-weight: 200;
+    font-style: normal;
+    font: bold;
+}
+.box1 p{
+    padding-bottom:10px ;
+}
+.card{
+    
+    display: inline-block;
+    margin-left:175px ;
+    width: 17%;
+    cursor: pointer;
+    transition: 2s;
+}
+.card:hover{
+transform: scale(0.8);
+z-index: 1;
+}
+.image5 img{
+    width: 100%;
+}
+.title{
+    padding-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+.des{
+    padding-top: 20px;
+text-align: center;
+}
+.container{
+    display: flex;
+    margin-top: 420px;
+    margin-bottom: 420px;
+    height: 35%;
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: #36c5a8;
+    border-top-right-radius:45px  ;
+}
+.container h1{
+    margin-left: 150px;
+    color: white;
+}
+ .btn1{
+     font-size: medium;
+     margin-left: 472px;
+     background-color: #36c5a8;
+     color: white;
+     border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn1:hover{
+     transform: scale(0.8);
+     z-index: 1;
+}
+.center{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer{
+    padding-top: 10px;
+}
